@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCSIA WORSHIP CENTER</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/45/PhilippinesGeneralCounciloftheAssembliesofGod.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            background-color: #002147;
+            font-family: Arial, sans-serif;
+            background: url('home.png') no-repeat center center fixed;
+
+
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            background-color: #002147;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: orange;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .navbar-nav .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .nav-link {
+            font-weight: bold;
+            color: #1A1A1A;
+        }
+        .nav-link:hover {
+            color: #FF6600;
+        }
+
+        
+
+        .card {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        .card h5 {
+            color: #00ff00;
+        }
+        .btn-custom {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+        }
+        .title {
+            margin-top: 30px;
+        }
+        
+
+        .hero-section {
+            background: linear-gradient(to bottom, #0a1635, #162850);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .hero-section .overlay-text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 8rem;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.1);
+        }
+        .theme-section {
+            background-color: #fff5e1;
+            text-align: center;
+            padding: 40px;
+        }
+        .theme-section h2 {
+            color: #0a1635;
+            font-weight: bold;
+        }
+        .theme-section p {
+            color: #3366cc;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .header {
+            background: linear-gradient(to bottom, #1a1a50, #050530);
+            padding: 20px;
+            color: white;
+        }
+        .header img {
+            width: 80px;
+        }
+        .content {
+            margin: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            border-bottom: 1px solid white;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .background-text {
+            position: absolute;
+            font-size: 120px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.1);
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .social-icons a:hover {
+            color: #f1c40f;
+        }
+        .footer-title {
+            font-weight: bold;
+            color: #ccc;
+        }
+        .footer-bottom {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            color: #444;
+        }
+        .footer-bottom h5 {
+            font-weight: bold;
+            color: #d4af37;
+        }
+
+        .banner {
+            position: relative;
+            background: url('image.png') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .banner-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        body {
+                        background-color: #1b1e3d;
+                        color: white;
+                    }
+                    .service-card img {
+                        width: 100%;
+                        height: 150px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+
+             
+  
+                    .hero-section {
+                background-color: #0D1B40;
+                color: white;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            .hero-section h1 {
+                font-weight: bold;
+                color: #ff4d4d;
+            }
+            .content-section {
+                background-color: #F8F5F1;
+                padding: 40px 20px;
+            }
+            .btn-custom {
+                background-color: black;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+            .btn-custom:hover {
+                background-color: #333;
+            }
+    
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="123.jpg" alt="Logo" height="50">
+                <span class="ms-2 fw-bold">JCSIA  WORSHIP CENTER </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">HOME</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="Ministry.html" role="button" data-bs-toggle="dropdown">MINISTRY DEPT.</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="History.html">OUR HISTORY</a></li>
+                            <li><a class="dropdown-item" href="Pastor.html">OUR PASTOR</a></li>
+                            <li><a class="dropdown-item" href="StatementOfFaith.html">STATEMENT OF FAITH </a></li>
+                            <li><a class="dropdown-item" href="Local.html">LOCALE OF CHURCHES  </a></li>
+                            <li><a class="dropdown-item" href="Mission.html">MISSION  </a></li>
+                            <li><a class="dropdown-item" href="Vission.html">VISSION  </a></li>
+                            <li><a class="dropdown-item" href="Values.html">VALUES </a></li>
+        
+
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="eventsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            EVENTS
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+                            <li><a class="dropdown-item" href="events.html">EVENTS</a></li>
+                            <li><a class="dropdown-item" href="Child.html">CHILDREN DEPARTMENT </a></li>
+                            <li><a class="dropdown-item" href="youth.html">YOUTH DEPARTMENT </a></li>
+                            <li><a class="dropdown-item" href="Single.html">SINGLE DEPARTMENT </a></li>
+                            <li><a class="dropdown-item" href="#">YOUNG COUPLES </a></li>
+                            <li><a class="dropdown-item" href="#">MEN'S DEPARTMENT </a></li>
+                            <li><a class="dropdown-item" href="#">WOMEN'S DEPARTMENT </a></li>
+                            <li><a class="dropdown-item" href="#">COUPLE'S MINISTRY </a></li>
+                            <li><a class="dropdown-item" href="#">SENIOR'S GOLDEN PILLARS </a></li>
+                        </ul>
+                    </li>
+                    
+
+
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">GALLERY</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">ABOUT </a></li>
+                    <li class="nav-item"><a class="nav-link" href="Location.html">LOCATION </a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT US</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <style>
+
+p {
+    color: white;
+  
+    border-radius: 8px;
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    text-align: justify;
+  
+}
+        </style>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Four Pillars of a Strong Lay Ministry</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container mt-5">
+
+            <div class="box">
+                <h2>SENIOR GOLDEN PILLARS MINISTRY </h2>
+            </div>
+           
+            
+            <div class="text-center my-4">
+                <img src="bible26.jpg" alt="Thank You Volunteers Cake" class="img-fluid rounded">
+            </div>
+
+            
+            <p>
+                Senior Golden Pillars Ministry Church is a faith-based organization dedicated to serving its congregation with love, guidance, and spiritual growth. The church stands as a pillar of faith, providing a place of worship, fellowship, and community support for individuals of all ages. Rooted in biblical teachings, the ministry aims to inspire and uplift its members through powerful sermons, prayer gatherings, and outreach programs.
+
+With a mission to spread the Gospel and nurture believers in their walk with Christ, Senior Golden Pillars Ministry Church fosters a welcoming and inclusive environment. The church emphasizes the importance of faith, hope, and charity, encouraging its members to live according to God’s word and extend kindness to others.
+
+Beyond Sunday services, the ministry engages in various activities such as Bible study groups, youth programs, and charitable initiatives that support the less fortunate. It believes in the power of community and unity, strengthening bonds among members and creating a family of faith.
+
+Through its commitment to spiritual enrichment and social responsibility, Senior Golden Pillars Ministry Church continues to be a beacon of light, guiding individuals towards a deeper connection with God and a purposeful Christian life.
+
+            </p>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Senior Golden Pillars Ministry Church</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center text-primary mb-4">Senior Golden Pillars Ministry Church</h1>
+        
+        <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        1. What is the mission and vision of Senior Golden Pillars Ministry Church?
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The mission of Senior Golden Pillars Ministry Church is to spread the Gospel, nurture spiritual growth, and empower believers to live according to God’s word. The church is committed to providing a welcoming and faith-filled environment where individuals can experience God’s love and grace.
+                        <br><br>
+                        The vision of the ministry is to build a strong, God-centered community that fosters spiritual transformation, discipleship, and service. The church aims to equip members with biblical knowledge, encourage acts of kindness, and extend support to those in need.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        2. What are the core values and beliefs that guide the ministry?
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        Senior Golden Pillars Ministry Church is founded on key Christian values, including faith, love, integrity, and service. The church believes in the authority of the Bible as God’s word, guiding all teachings and practices.
+                        <br><br>
+                        The ministry upholds the power of prayer as a means of connection with God and emphasizes the importance of worship and fellowship. It values community service, encouraging believers to show compassion and generosity.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        3. What types of services and programs does the church offer to its members?
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The church provides weekly Sunday worship services, Bible study sessions, prayer meetings, counseling services, and mentorship programs. Additionally, it offers youth and children’s ministries, discipleship training, and leadership development programs.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        4. How does the church engage with the community through outreach and charitable activities?
+                    </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        The church organizes charity drives, supports orphanages and elderly homes, conducts evangelism programs, and offers free educational initiatives such as tutoring, career guidance, and vocational training.
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                        5. What steps can new members take to get involved and grow in their faith within the church?
+                    </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                    <div class="accordion-body">
+                        New members can attend worship services, join Bible study groups, participate in prayer meetings, and volunteer in church ministries. Engaging in community service projects and seeking mentorship from church leaders further enriches their faith journey.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+    
+    
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ministry Pillars</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+        .pillar {
+            margin-bottom: 20px;
+            padding: 15px;
+            border-left: 5px solid #3498db;
+            background: #ecf0f1;
+            border-radius: 5px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        @media (max-width: 600px) {
+            .container {
+                padding: 15px;
+            }
+        }
+
+        .box {
+            background-color: white; /* White background */
+            color: black; /* Black text */
+            padding: 20px; /* Space inside the box */
+            border-radius: 10px; /* Rounded corners */
+            text-align: center; /* Center text */
+            width: fit-content; /* Box size fits content */
+            margin: 20px auto; /* Centering the box */
+            border: 2px solid black; /* Black border */
+            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+            font-family: Arial, sans-serif; /* Clean font */
+            font-size: 1.5em; /* Adjust text size */
+        }
+
+       
+        .icon {
+            font-size: 40px;
+            color: black;
+            margin-bottom: 10px;
+        }
+        .text {
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <h2>Pillar #1: Every Believer is a Minister</h2>
+        </div>
+
+        <div class="pillar">
+            <p style="color: black;">
+                To be a Christian means being like Jesus. He said, 
+                <span class="highlight" style="color: black;">
+                  “For even the Son of Man did not come to be served, but to serve, and to give his life as a ransom for many”
+                </span> (Mark 10:45).
+              </p>
+        </div>
+
+        <div class="box">
+            <h2>Pillar #2: Every Ministry is Important</h2>
+        </div>
+    
+        <div class="pillar">
+            <p style="color: black;">
+                There are no “little people” in the Body of Christ and there are no “insignificant” ministries either. Every ministry is important.
+            </p>
+        </div>
+
+        <div class="box">
+            <h2>Pillar #3: We Are Dependent on Each Other</h2>
+        </div>
+      
+        <div class="pillar">
+            <p style="color: rgb(0, 0, 255);">
+                Not only is every ministry important, every ministry is intertwined with all the others. 
+                Since no single ministry can accomplish all the church is called to do, we must depend on 
+                and cooperate with each other.
+            </p>
+            
+        </div>
+
+        <div class="box">
+            <h2>Villar #4: Ministry is the Expression of My S.H.A.P.E.</h2>
+        </div>
+      
+
+    
+        <div class="pillar">
+            <p style="color: black;">
+                S.H.A.P.E. is an acronym that explains the five elements that determine a person’s ministry:
+            </p>
+                <li><span class="highlight">Spiritual gifts</span></li>
+                <li><span class="highlight">Heart</span></li>
+                <li><span class="highlight">Abilities</span></li>
+                <li><span class="highlight">Personality</span></li>
+                <li><span class="highlight">Experience</span></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
+
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>UCM Footer</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .footer {
+                background-color: #222;
+                color: white;
+                padding: 30px 0;
+            }
+            .footer a {
+                color: white;
+                text-decoration: none;
+            }
+            .footer a:hover {
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+    
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <!-- Left Column -->
+                <div class="col-md-4">
+                    <h5><img src="logo.png" alt="UCM Logo" style="height: 50px;"> JCSIA </h5>
+                    <p>JCSIA WORSHIP CENTER </p>
+                    <p>1474 JCSIA Worship Center Quirino Highway Bankers Village District I Zone 16 Tala, Caloocan, 1426</p>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Middle Column -->
+                <div class="col-md-4">
+                    <h5>Schedule of Services</h5>
+                    <p><strong>Sunday  Service</strong><br>8:00 AM 9:00AM 1ST SERVICE BANKERS WORSHIP CENTER </p>
+                    <p><strong>Sunday  Service</strong><br>10:00 AM 12:00PM 2ND SERVICE METROPLAZA MALL MALARIA </p>
+                    <p><strong>YOUTH SERVICE </strong><br>2:00PM 4:00PM | BANKERS WORSHIP CENTER </p>
+                    <p><strong>MIDWEEK </strong><br>6:30 pm | BANKERS WORSHIP CENTER </p>
+                </div>
+    
+                <!-- Right Column -->
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p>(632) 8812-6062<br>(632) 8812-5609</p>
+                    <h6>JCSIA ADMIN OFFICE </h6>
+                    <p>Weekdays: 8:00 am - 5:00 pm</p>
+                    <p>Sundays: 8:00 am - 5:00 pm</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
+    
+           
+                <div class="footer-bottom">
+                    <h5>TO GOD BE THE GLORY</h5>
+                    <p style="color: black; text-align: center;">
+                        &copy; Copyright JCSIA (Jesus Christ the Savior International Assembly) 2025. All rights reserved.
+                    </p>
+                    
+                </div>
+    
+    
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+            
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

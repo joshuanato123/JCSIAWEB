@@ -1,0 +1,1337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCSIA WORSHIP CENTER </title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-lightblue-100">
+
+    <header class="bg-lightblue-200 py-4 px-6 flex flex-wrap items-center justify-between">
+        <div class="flex items-center space-x-4">
+            <img src="logo.png" alt="AMCC Logo" class="h-16">
+            <div>
+                <h1 class="text-2xl font-semibold text-green-900">NORTH CALOOCAN BIBLE COLLEGE </h1>
+                <p class="text-sm text-gray-600">Jesus Christ the Savior International Assemblies</p>
+            </div>
+        </div>
+
+        <div class="flex space-x-8">
+            <div class="flex items-center space-x-2">
+                <svg class="w-6 h-6 text-green-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h11M9 21V3M17 16l4-4m0 0l-4-4m4 4H9"></path>
+                </svg>
+                <div>
+                    <p class="font-semibold text-green-900">Phone us</p>
+                    <p class="text-sm text-gray-700">223 - 2114</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2">
+                <svg class="w-6 h-6 text-green-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M16 12H3m0 0l4-4m-4 4l4 4m13-4h-3m0 0l4-4m-4 4l4 4"></path>
+                </svg>
+                <div>
+                    <p class="font-semibold text-green-900">Email us</p>
+                    <p class="text-sm text-gray-700">info@amcc.edu.ph</p>
+                </div>
+            </div>
+
+            <div class="flex items-center space-x-2">
+                <svg class="w-6 h-6 text-green-900" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 10h11M9 21V3M17 16l4-4m0 0l-4-4m4 4H9"></path>
+                </svg>
+                <div>
+                    <p class="font-semibold text-green-900">Our Location</p>
+                    <p class="text-sm text-gray-700">1474 JCSIA Worship Center Quirino Highway Bankers Village District I Zone 16 Tala, Caloocan, 1426</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silliman University Clone</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Top Navigation -->
+    <div class="bg-red-700 text-white py-2 px-4 flex justify-between items-center text-sm">
+        <div class="flex space-x-4">
+            <a href="#" class="hover:underline">School Calendar</a>
+            <a href="#" class="font-bold hover:underline">GIVE NOW</a>
+            <a href="#" class="hover:underline">Emergency Hotline Numbers</a>
+        </div>
+        <div>
+            <select class="bg-red-600 text-white p-1 rounded cursor-pointer">
+                <option>English</option>
+                <option>Filipino</option>
+            </select>
+        </div>
+    </div>
+
+    <!-- Logo Section -->
+    <div class="bg-white py-4 flex items-center justify-center space-x-3 shadow-md">
+        <img src="logo.png" alt="Silliman University Logo" class="h-12 w-auto">
+        <h1 class="text-2xl font-bold text-red-700">BIBLE STUDY JCSIA</h1>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="bg-black text-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between h-14 items-center">
+                <div class="hidden md:flex space-x-6">
+                    <a href="weekly-bible-study.html" class="hover:bg-red-700 px-3 py-2 rounded transition">HOME</a>
+                    
+                    <!-- Dropdown Menu for About -->
+<div class="relative">
+    <button id="aboutDropdownBtn" class="hover:bg-red-700 px-3 py-2 rounded flex items-center transition">
+        ABOUT ▼
+    </button>
+    <div id="aboutDropdownMenu" class="absolute hidden bg-white text-black w-40 shadow-md mt-2 rounded transition">
+        <a href="story.html" class="block px-4 py-2 hover:bg-gray-200">Our History</a>
+        <a href="ourmission.html" class="block px-4 py-2 hover:bg-gray-200">Our Mission</a>
+        <a href="leadership.html" class="block px-4 py-2 hover:bg-gray-200">Our Pastoral</a>
+        <a href="ourgoals.html" class="block px-4 py-2 hover:bg-gray-200">Our Goals</a>
+        <a href="partners.html" class="block px-4 py-2 hover:bg-gray-200">Our Partnership</a>
+        <a href="ourcampus.html" class="block px-4 py-2 hover:bg-gray-200">Our Campus</a>
+        <a href="ourservices.html" class="block px-4 py-2 hover:bg-gray-200">Our Services</a>
+        <a href="ourbeleifs.html" class="block px-4 py-2 hover:bg-gray-200">Our Beliefs</a>
+    </div>
+</div>
+
+<script>
+    document.getElementById("aboutDropdownBtn").addEventListener("click", function () {
+        let menu = document.getElementById("aboutDropdownMenu");
+        menu.classList.toggle("hidden");
+    });
+
+    // Close dropdown when clicking outside
+    document.addEventListener("click", function (event) {
+        let button = document.getElementById("aboutDropdownBtn");
+        let menu = document.getElementById("aboutDropdownMenu");
+        if (!button.contains(event.target) && !menu.contains(event.target)) {
+            menu.classList.add("hidden");
+        }
+    });
+</script>
+
+                    
+<div class="relative group">
+    <a href="#" class="hover:bg-red-700 px-3 py-2 rounded transition inline-block">BIBLE STUDY </a>
+    <div class="absolute hidden group-hover:block bg-white shadow-lg mt-1 rounded w-40">
+        <a href="#" class="block px-4 py-2 text-black hover:bg-gray-200"></a>
+<a href="ourgallery.html" class="block px-4 py-2 text-black hover:bg-gray-200">OUR GALLERY </a>
+<a href="#" class="block px-4 py-2 text-black hover:bg-gray-200">Admissions</a>
+
+    </div>
+</div>
+
+                    
+
+                <!-- Mobile Menu Button -->
+                <button id="menu-toggle" class="md:hidden p-2 focus:outline-none text-white text-2xl">
+                    ☰
+                </button>
+            </div>
+        </div>
+    
+        <!-- Mobile Dropdown Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white text-black p-4 space-y-2 shadow-lg">
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">HOME</a>
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">ABOUT</a>
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">ACADEMICS</a>
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">SERVICES</a>
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">UPDATES</a>
+            <a href="#" class="block hover:bg-gray-200 px-3 py-2 rounded">CHURCH</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <div class="h-screen w-full bg-cover bg-center bg-no-repeat flex items-center justify-center" style="background-image: url('bible22.jpg');">
+        <h1 class="text-white text-4xl md:text-6xl font-bold text-center drop-shadow-lg p-4 bg-black bg-opacity-50 rounded-lg">
+            OUR STORY BIBLE STUDY 
+        </h1>
+    </div>
+
+    <!-- JavaScript for Toggle -->
+    <script>
+        document.getElementById("menu-toggle").addEventListener("click", function() {
+            document.getElementById("mobile-menu").classList.toggle("hidden");
+        });
+    </script>
+
+</body>
+</html>
+
+
+
+   <!-- Description Section -->
+<section 
+class="container mx-auto text-center my-8 px-4 py-16 bg-cover bg-center text-white"
+style="background-image: url('bible4.jpg'); background-blend-mode: overlay; background-color: rgba(0, 0, 0, 0.6);">
+<h2 class="text-2xl font-bold">I Stand for Christ, I Support JCSIA</h2>
+<p class="mt-4 max-w-3xl mx-auto text-justify">
+    Faith is the foundation of my life, and I stand firmly for Christ in all that I do. Jesus Christ has given me purpose, strength, and an unwavering hope that guides my every step. In a world filled with uncertainties, I choose to anchor myself in His Word, living by faith and sharing His love with others.
+    <br><br>
+    This is why I fully support JCSIA (Jesus Christ Saves International Association). JCSIA is more than just an organization; it is a movement dedicated to spreading the gospel, strengthening believers, and serving communities with Christ’s love. Through discipleship, outreach, and unwavering commitment to biblical truth, JCSIA empowers individuals to live according to God’s purpose.
+    <br><br>
+    Supporting JCSIA means standing for righteousness, truth, and love. It means being part of a mission that seeks to transform lives through the power of Christ. As a believer, I am called to be a light in the darkness, a voice of hope, and a vessel for God’s work.
+    <br><br>
+    I will continue to stand for Christ and support JCSIA in its mission to bring souls to salvation. Together, we shine His light and proclaim His name to the ends of the earth.
+    <br><br>
+    #IStandForChrist #SupportJCSIA
+</p>
+
+</section>
+
+
+   
+
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Center for Biblical Studies</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body class="bg-gray-100">
+        
+            <!-- Hero Section -->
+            <section class="relative h-screen flex items-center justify-center text-center text-white">
+                <!-- Background Image -->
+                <div class="absolute inset-0">
+                    <img src="study5.jpg" alt="Background" class="w-full h-full object-cover">
+                    <div class="absolute inset-0 bg-blue-900 bg-opacity-80"></div>
+                </div>
+        
+                <!-- Content -->
+                <div class="relative z-10 px-6">
+                    <h1 class="text-4xl md:text-5xl font-bold uppercase">Center for Biblical Studies</h1>
+                    <p class="mt-2 text-lg text-justify">
+                        Bible study is a spiritual practice that involves reading, interpreting, and applying Scripture to daily life. It helps believers grow in faith, understand God's will, and deepen their relationship with Him. Bible study can be done individually or in groups, using various methods such as verse-by-verse analysis, thematic studies, or character studies. Many use study guides, commentaries, and concordances to gain deeper insights. Churches often hold Bible study sessions to encourage fellowship and discussion. Personal study can include prayer and meditation on God's Word. Consistent Bible study strengthens faith, provides wisdom for life’s challenges, and fosters spiritual growth.
+                      </p>
+                      
+                      <a href="your-link-here" class="mt-6 px-6 py-3 text-lg font-semibold rounded-full bg-gradient-to-r from-blue-500 to-yellow-400 hover:scale-105 transition-all inline-block text-center">
+                        Learn More
+                    </a>
+                    
+                </div>
+        
+                <!-- Wavy Bottom Effect -->
+                <div class="absolute bottom-0 left-0 right-0">
+                    <svg viewBox="0 0 1440 320" class="w-full h-auto">
+                        <path fill="#fff" fill-opacity="1" d="M0,288L48,277.3C96,267,192,245,288,240C384,235,480,245,576,229.3C672,213,768,171,864,154.7C960,139,1056,149,1152,154.7C1248,160,1344,160,1392,160L1440,160L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                    </svg>
+                </div>
+            </section>
+        
+        </body>
+        </html>
+         
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>CBS Information</title>
+            <script src="https://cdn.tailwindcss.com"></script>
+        </head>
+        <body class="bg-gray-100">
+            <div class="container mx-auto py-10">
+                <div class="grid md:grid-cols-3 gap-6 px-4">
+                    <!-- About CBS -->
+                    <div class="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg">
+                        <img src="gen.jpg" alt="About CBS" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                            <h2 class="text-white text-2xl font-bold">ABOUT CBS</h2>
+                        </div>
+                    </div>
+                    <!-- Academics -->
+                    <div class="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg">
+                        <img src="aca.jpg" alt="Academics" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                            <h2 class="text-white text-2xl font-bold">ACADEMICS</h2>
+                        </div>
+                    </div>
+                    <!-- Admissions -->
+                    <div class="relative group cursor-pointer overflow-hidden rounded-lg shadow-lg">
+                        <img src="bib.jpg" alt="Admissions" class="w-full h-64 object-cover transform group-hover:scale-110 transition duration-300">
+                        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+                            <h2 class="text-white text-2xl font-bold">ADMISSIONS</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+        </html>
+        
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lessons</title>
+    <script>
+        function readMore(lessonNumber) {
+            var content = document.getElementById("lesson-content-" + lessonNumber);
+            var btn = document.getElementById("read-more-btn-" + lessonNumber);
+
+            if (content.style.display === "none" || content.style.display === "") {
+                content.style.display = "block";
+                btn.innerText = "Read Less";
+            } else {
+                content.style.display = "none";
+                btn.innerText = "Read More";
+            }
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-5">
+
+    <section class="py-10 px-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Lesson 1 -->
+            <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="bible22.jpg" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">LESSON #1: BEGINNING OF FAITH</h2>
+                    <p id="lesson-content-1" class="text-gray-700 text-sm mt-2 hidden">
+                        Faith is the foundation of the Christian journey. It starts with trust in God, believing in His existence and His promises. The Bible teaches that without faith, it is impossible to please God. It’s through faith that we receive salvation and begin our relationship with God. As believers, we are called to walk by faith, not by sight, trusting in God's word and plan for our lives. This lesson helps to lay the groundwork for understanding the importance of faith as a crucial element in the Christian life.
+                    </p>
+                    <button id="read-more-btn-1" class="text-blue-600 mt-2 underline" onclick="readMore(1)">Read More</button>
+                </div>
+            </div>
+
+            <!-- Lesson 2 -->
+            <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="bible22.jpg" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">LESSON #2: HOPE IN CHRIST</h2>
+                    <p id="lesson-content-2" class="text-gray-700 text-sm mt-2 hidden">
+                        Hope in Christ is the confident expectation of eternal life and fulfillment of God's promises. It is not based on circumstances but on God's unchanging nature. Christians are encouraged to anchor their hope in the gospel, knowing that God is faithful and will fulfill His word. This hope leads to peace in times of difficulty and motivates believers to continue walking in the path God has set for them. Understanding this hope transforms how believers live their lives and impacts their relationship with others.
+                    </p>
+                    <button id="read-more-btn-2" class="text-blue-600 mt-2 underline" onclick="readMore(2)">Read More</button>
+                </div>
+            </div>
+
+            <!-- Lesson 3 -->
+            <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="bible22.jpg" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">LESSON #3: LOVE YOUR NEIGHBOR</h2>
+                    <p id="lesson-content-3" class="text-gray-700 text-sm mt-2 hidden">
+                        The commandment to love our neighbors is central to Jesus’ teachings. It calls believers to show kindness, empathy, and compassion to everyone around them, regardless of their background or status. Jesus demonstrated this love through His actions, even toward those who persecuted Him. This lesson emphasizes the importance of loving others as ourselves, as a reflection of God's love for us. It encourages Christians to be active in serving others and sharing the love of Christ with the world, promoting unity and peace.
+                    </p>
+                    <button id="read-more-btn-3" class="text-blue-600 mt-2 underline" onclick="readMore(3)">Read More</button>
+                </div>
+            </div>
+
+            <!-- Lesson 4 -->
+            <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="bible22.jpg" class="w-full h-56 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-semibold">LESSON #4: FORGIVENESS IN CHRIST</h2>
+                    <p id="lesson-content-4" class="text-gray-700 text-sm mt-2 hidden">
+                        Forgiveness is a key principle in Christianity, exemplified by Jesus' sacrifice on the cross. Believers are called to forgive others as God forgives them. This lesson explores the power of forgiveness in healing relationships, restoring peace, and removing the burden of anger and resentment. Jesus’ teachings urge us to forgive seventy-seven times, signifying the endless nature of God’s grace. Forgiving others not only frees them but also releases us from the chains of unforgiveness, allowing us to experience true freedom in Christ.
+                    </p>
+                    <button id="read-more-btn-4" class="text-blue-600 mt-2 underline" onclick="readMore(4)">Read More</button>
+                </div>
+            </div>
+
+            <!-- Add more lessons following the same pattern for lessons 5-20 -->
+           
+                <!-- Lessons 1 to 4 -->
+                <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="bible22.jpg" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-semibold">LESSON #5: PRAYER AND COMMUNICATION WITH GOD</h2>
+                        <p id="lesson-content-5" class="text-gray-700 text-sm mt-2 hidden">
+                            Prayer is essential for building a strong relationship with God. It allows believers to communicate with Him, express gratitude, seek guidance, and intercede for others. This lesson emphasizes the importance of regular prayer and trusting in God's responses, whether immediate or in His perfect timing.
+                        </p>
+                        <button id="read-more-btn-5" class="text-blue-600 mt-2 underline" onclick="readMore(5)">Read More</button>
+                    </div>
+                </div>
+    
+                <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="bible22.jpg" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-semibold">LESSON #6: SERVING OTHERS</h2>
+                        <p id="lesson-content-6" class="text-gray-700 text-sm mt-2 hidden">
+                            Jesus taught that serving others is a mark of greatness in God's kingdom. This lesson explores how believers can serve others selflessly, following Christ’s example. True service is an act of love, humility, and obedience to God's will, bringing blessings to both the giver and the receiver.
+                        </p>
+                        <button id="read-more-btn-6" class="text-blue-600 mt-2 underline" onclick="readMore(6)">Read More</button>
+                    </div>
+                </div>
+    
+                <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="bible22.jpg" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-semibold">LESSON #7: THE POWER OF THE HOLY SPIRIT</h2>
+                        <p id="lesson-content-7" class="text-gray-700 text-sm mt-2 hidden">
+                            The Holy Spirit empowers believers to live according to God’s will. This lesson discusses how the Spirit guides, comforts, and strengthens Christians in their daily walk. The gifts and fruits of the Spirit equip believers to serve God effectively and overcome spiritual challenges.
+                        </p>
+                        <button id="read-more-btn-7" class="text-blue-600 mt-2 underline" onclick="readMore(7)">Read More</button>
+                    </div>
+                </div>
+    
+                <div class="relative group bg-white shadow-lg rounded-lg overflow-hidden">
+                    <img src="bible22.jpg" class="w-full h-56 object-cover">
+                    <div class="p-4">
+                        <h2 class="text-lg font-semibold">LESSON #8: LIVING A LIFE OF GRATITUDE</h2>
+                        <p id="lesson-content-8" class="text-gray-700 text-sm mt-2 hidden">
+                            Gratitude is a powerful expression of faith and trust in God. This lesson highlights the importance of being thankful in all circumstances, recognizing God’s blessings, and developing a heart of worship. A grateful life leads to joy, peace, and a deeper connection with God.
+                        </p>
+                        <button id="read-more-btn-8" class="text-blue-600 mt-2 underline" onclick="readMore(8)">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            
+           
+            
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Lessons</title>
+    <script>
+        function readMore(lessonId) {
+            const content = document.getElementById(`lesson-content-${lessonId}`);
+            const button = document.getElementById(`read-more-btn-${lessonId}`);
+            
+            if (content.classList.contains('hidden')) {
+                content.classList.remove('hidden');
+                button.textContent = "Read Less";
+            } else {
+                content.classList.add('hidden');
+                button.textContent = "Read More";
+            }
+        }
+    </script>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="bible22.jpg" class="w-full h-56 object-cover">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">LESSON #9: FAITH AND TRUST IN GOD</h2>
+                <p id="lesson-content-9" class="text-gray-700 text-sm mt-2 hidden">
+                    Faith is the foundation of a believer's life. This lesson explores how trusting in God's promises and plans strengthens spiritual growth and provides peace in difficult times.
+                </p>
+                <button id="read-more-btn-9" class="text-blue-600 mt-2 underline" onclick="readMore(9)">Read More</button>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="bible22.jpg" class="w-full h-56 object-cover">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">LESSON #10: FORGIVENESS AND RECONCILIATION</h2>
+                <p id="lesson-content-10" class="text-gray-700 text-sm mt-2 hidden">
+                    Forgiveness is a key principle in Christian life. This lesson discusses the importance of forgiving others as God forgives us and the healing power of reconciliation.
+                </p>
+                <button id="read-more-btn-10" class="text-blue-600 mt-2 underline" onclick="readMore(10)">Read More</button>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="bible22.jpg" class="w-full h-56 object-cover">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">LESSON #11: OBEYING GOD'S WORD</h2>
+                <p id="lesson-content-11" class="text-gray-700 text-sm mt-2 hidden">
+                    Obedience to God’s Word is essential for a fulfilled spiritual life. This lesson emphasizes the blessings that come from following God's commands and walking in righteousness.
+                </p>
+                <button id="read-more-btn-11" class="text-blue-600 mt-2 underline" onclick="readMore(11)">Read More</button>
+            </div>
+        </div>
+
+        <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+            <img src="bible22.jpg" class="w-full h-56 object-cover">
+            <div class="p-4">
+                <h2 class="text-lg font-semibold">LESSON #12: SHARING THE GOSPEL</h2>
+                <p id="lesson-content-12" class="text-gray-700 text-sm mt-2 hidden">
+                    Spreading the message of Christ is a responsibility of every believer. This lesson explores different ways to share the gospel effectively and be a light to the world.
+                </p>
+                <button id="read-more-btn-12" class="text-blue-600 mt-2 underline" onclick="readMore(12)">Read More</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Core Values</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .icon-circle {
+            width: 80px;
+            height: 80px;
+            background-color: #0056b3;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .icon-circle img {
+            width: 50px;
+        }
+        .value-section {
+            text-align: center;
+            margin-top: 40px;
+        }
+        .value-title {
+            color: #0056b3;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .value-text {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container text-center mt-5">
+        <p class="lead">
+            The Apostle Paul exhorted Timothy to "guard the good deposit ... with the help of the Holy Spirit" (2 Timothy 1:14)...
+        </p>
+        
+        <div class="row justify-content-center">
+            <div class="col-md-4 value-section">
+                <div class="icon-circle">
+                    <img src="crown-icon.png" alt="Lordship">
+                </div>
+                <h3 class="value-title">LORDSHIP</h3>
+                <p class="value-text">Because Jesus is “King of kings and Lord of lords,” we believe that whole-hearted submission to God’s will...</p>
+                <p><strong>COLOSSIANS 2:6</strong></p>
+            </div>
+            <div class="col-md-4 value-section">
+                <div class="icon-circle">
+                    <img src="evangelism-icon.png" alt="Evangelism">
+                </div>
+                <h3 class="value-title">EVANGELISM</h3>
+                <p class="value-text">Because God’s heart is to reach the lost, we’re passionate about preaching the gospel...</p>
+                <p><strong>JOHN 3:16, LUKE 19:10</strong></p>
+            </div>
+            <div class="col-md-4 value-section">
+                <div class="icon-circle">
+                    <img src="discipleship-icon.png" alt="Discipleship">
+                </div>
+                <h3 class="value-title">DISCIPLESHIP</h3>
+                <p class="value-text">Because we’re called to make disciples, our primary focus is establishing biblical foundations...</p>
+                <p><strong>MATTHEW 28:19-20</strong></p>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Study Lesson Outlines</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <header class="relative w-full h-[400px] bg-cover bg-center" style="background-image: url('https://s45600.pcdn.co/wp-content/uploads/2023/11/1.8.24_Understanding_the_Big_Picture_of_the_Bible-1024x683-1.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white">
+            <h1 class="text-4xl font-bold">BIBLE STUDY LESSON OUTLINES</h1>
+            <p class="text-lg mt-2">Easy-to-Follow Outlines to Promote Daily Devotionals, Discussion, and Fellowship</p>
+        </div>
+    </header>
+    
+    <section class="py-10 px-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+            <!-- Lessons 1 to 10 -->
+            <div class="relative group">
+                <img src="bible22.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #52: SALVATION</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">A comprehensive overview of the concept of salvation in the Bible, focusing on redemption and eternal life.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(1)">Read More</span>
+                    <p id="desc-1" class="mt-2 hidden text-sm">Salvation is the saving of the soul from sin and its consequences. It is the central message of the Bible, where God's grace offers a way to be saved through faith in Jesus Christ.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible23.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #51: EVANGELISM</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">Exploring the importance of sharing the gospel and spreading the message of Jesus Christ to others.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(2)">Read More</span>
+                    <p id="desc-2" class="mt-2 hidden text-sm">Evangelism is the act of spreading the Christian gospel. The Bible teaches the importance of going out into the world to share the good news of salvation.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible11.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #50: FALSE GODS</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">A discussion on the dangers of idolatry and how false gods can mislead believers.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(3)">Read More</span>
+                    <p id="desc-3" class="mt-2 hidden text-sm">False gods are idols or deities that lead people away from the one true God. The Bible warns against worshiping false gods and teaches that only God deserves our worship.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible2.jpeg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #49: DISCRIMINATION</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">An examination of how discrimination contradicts Christian teachings on equality and love.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(4)">Read More</span>
+                    <p id="desc-4" class="mt-2 hidden text-sm">Discrimination is the unjust treatment of individuals based on factors like race, gender, or socioeconomic status. The Bible calls for love and acceptance of all people, as everyone is made in God's image.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible21.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #48: FAITH</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">Understanding the power of faith and how it shapes the Christian life and relationship with God.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(5)">Read More</span>
+                    <p id="desc-5" class="mt-2 hidden text-sm">Faith is essential in Christianity, where believers trust in God's promises and believe in the unseen. It is through faith that one is justified and able to live out God's will.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible24.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #47: PRAYER</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">The significance of prayer as a means of communicating with God and seeking His will.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(6)">Read More</span>
+                    <p id="desc-6" class="mt-2 hidden text-sm">Prayer is a way of communicating with God, whether through praise, confession, thanksgiving, or supplication. The Bible teaches that we should pray continually and trust in God's answers.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible25.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #46: HUMILITY</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">A reflection on humility as a virtue that honors God and helps us live in peace with others.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(7)">Read More</span>
+                    <p id="desc-7" class="mt-2 hidden text-sm">Humility is the quality of being humble and having a modest view of oneself. The Bible teaches that humility is necessary for a strong relationship with God and others.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible26.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #45: FORGIVENESS</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">Exploring the power and importance of forgiveness in the Christian faith and how it transforms relationships.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(8)">Read More</span>
+                    <p id="desc-8" class="mt-2 hidden text-sm">Forgiveness is central to the Christian faith, as it reflects God's forgiveness towards us. We are called to forgive others, just as we have been forgiven.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible27.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #44: KINDNESS</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">How kindness is a reflection of God's love and is important in building a compassionate community.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(9)">Read More</span>
+                    <p id="desc-9" class="mt-2 hidden text-sm">Kindness involves showing love and concern for others, reflecting God's character. The Bible calls believers to be kind, forgiving, and compassionate to all people.</p>
+                </div>
+            </div>
+            <div class="relative group">
+                <img src="bible28.jpg" class="w-full h-56 object-cover rounded-lg">
+                <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-center text-white text-lg font-semibold opacity-0 group-hover:opacity-100 transition">
+                    <h3>LESSON #43: LOVE</h3>
+                    <p class="text-sm mt-2 opacity-0 group-hover:opacity-100 transition-all">An exploration of love as the greatest commandment and its application in the Christian life.</p>
+                    <span class="text-sm underline mt-2 cursor-pointer" onclick="toggleDescription(10)">Read More</span>
+                    <p id="desc-10" class="mt-2 hidden text-sm">Love is at the heart of the Christian message. Jesus taught that loving God and loving others are the greatest commandments that encapsulate all of God's laws.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleDescription(lessonNumber) {
+            const description = document.getElementById('desc-' + lessonNumber);
+            description.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shared Values</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-white text-gray-900">
+    <div class="max-w-5xl mx-auto p-8">
+        <h2 class="text-3xl font-bold text-gray-900 text-center mb-6">Join a Team Connected by Shared Values</h2>
+        
+        <div class="grid md:grid-cols-3 sm:grid-cols-2 gap-8">
+            <!-- Generous -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="gift" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Generous</h3>
+                <p class="text-gray-700">Our God is a generous host, so we have an abundance mindset.</p>
+            </div>
+            
+            <!-- Humble -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="handshake" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Humble</h3>
+                <p class="text-gray-700">God humbles himself by collaborating with humanity, so we treat every person as valuable and with something to offer.</p>
+            </div>
+            
+            <!-- Thoughtful -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="brain" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Thoughtful</h3>
+                <p class="text-gray-700">God invites us to live by his wisdom, so we are both empathetic and strategic.</p>
+            </div>
+
+            <!-- Creative -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="palette" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Creative</h3>
+                <p class="text-gray-700">God created order out of chaos for life to flourish, so we innovate.</p>
+            </div>
+
+            <!-- Unifying -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="users" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Unifying</h3>
+                <p class="text-gray-700">God is creating a worldwide and diverse human family, so we serve as a catalyst for its unity.</p>
+            </div>
+
+            <!-- Unhurried -->
+            <div class="flex flex-col items-center text-center space-y-2">
+                <i data-lucide="clock" class="w-8 h-8 text-indigo-600"></i>
+                <h3 class="font-bold text-lg">Unhurried</h3>
+                <p class="text-gray-700">God rested in his work, so we toil sustainably and find rest.</p>
+            </div>
+        </div>
+    </div>
+
+    
+    
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Approach</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-100 p-10">
+    <div class="max-w-5xl mx-auto bg-white p-8 rounded-lg shadow-md">
+        <h1 class="text-4xl font-bold text-gray-800">Our Approach</h1>
+        <h2 class="text-2xl font-semibold text-gray-700 mt-4">Behold, I Make All Things New</h2>
+        <p class="text-gray-600 mt-2">We often say, “The Bible is a unified story that leads to Jesus.” This belief shapes how we engage with Scripture and influences how we create resources. Our approach is guided by seven key aspects of a paradigm that helps us explore, understand, and communicate the rich narrative of the Bible.</p>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="p-4 bg-blue-100 rounded-lg flex items-start">
+                <i data-lucide="book-open" class="text-blue-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Human and Divine Literature</h3>
+                    <p class="text-gray-600">The Bible is the result of a creative collaboration between humans and God’s Spirit.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-green-100 rounded-lg flex items-start">
+                <i data-lucide="scroll" class="text-green-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Ancient Literature</h3>
+                    <p class="text-gray-600">The Bible was written in another time and culture, and we need to honor that historical context.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-yellow-100 rounded-lg flex items-start">
+                <i data-lucide="layers" class="text-yellow-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Unified Literature</h3>
+                    <p class="text-gray-600">The Bible has many authors, styles, and themes but tells one story about God’s creation.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-red-100 rounded-lg flex items-start">
+                <i data-lucide="cross" class="text-red-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Messianic Literature</h3>
+                    <p class="text-gray-600">The story of the Bible comes to fulfillment in Jesus’ life, death, and resurrection.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-purple-100 rounded-lg flex items-start">
+                <i data-lucide="users" class="text-purple-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Communal Literature</h3>
+                    <p class="text-gray-600">The Bible was designed to be read and studied within a community.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-indigo-100 rounded-lg flex items-start">
+                <i data-lucide="lightbulb" class="text-indigo-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Wisdom Literature</h3>
+                    <p class="text-gray-600">The Bible invites readers to a journey of character transformation.</p>
+                </div>
+            </div>
+
+            <div class="p-4 bg-teal-100 rounded-lg flex items-start">
+                <i data-lucide="feather" class="text-teal-500 w-6 h-6"></i>
+                <div class="ml-4">
+                    <h3 class="font-bold">Meditation Literature</h3>
+                    <p class="text-gray-600">The Bible is designed to reveal its meaning over a lifetime of reflection.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Verses by Topic</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-6xl mx-auto">
+        <h1 class="text-3xl font-bold text-gray-800 mb-6 text-center">Bible Verse by Topic</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="healing.jpg" alt="Healing" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Healing Bible Verses</h2>
+                    <p class="text-gray-600">Find Scripture that encourages faith and healing.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="anxiety.jpg" alt="Worry and Anxiety" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Worry and Anxiety Bible Verses</h2>
+                    <p class="text-gray-600">Find comfort and peace in God's Word.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="bible29.jpg" alt="Grief" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">God's Promises in the Bible</h2>
+                    <p class="text-gray-600">Find strength and comfort during difficult times.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="hard.jpg" alt="Comfort" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Bible Verses About Faith in Hard Times</h2>
+                    <p class="text-gray-600">God's love and faithfulness in hard times.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="faith3.jpg" alt="Faith" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Bible Verses About Faith</h2>
+                    <p class="text-gray-600">Strengthen your faith through the Word.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="love.jpg" alt="Love" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Bible Verses About Love</h2>
+                    <p class="text-gray-600">Discover God's unconditional love.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="friend.jpg" alt="Forgiveness" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Friendship Bible Verses</h2>
+                    <p class="text-gray-600">Learn about God's grace and forgiveness.</p>
+                </div>
+            </a>
+            
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="wisdom.jpg" alt="Wisdom" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Bible Verses About Wisdom</h2>
+                    <p class="text-gray-600">Seek God's wisdom and guidance.</p>
+                </div>
+            </a>
+            <a href="#" class="bg-white rounded-lg shadow-lg overflow-hidden block">
+                <img src="hope.jpg" alt="Hope" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-xl font-bold text-blue-700">Bible Verses About Hope</h2>
+                    <p class="text-gray-600">Find hope in God's eternal promises.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programs List</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<style>
+
+.custom-justify {
+    text-align: justify;
+}
+.card p {
+    text-align: justify;
+}
+
+</style>
+<body class="bg-gray-100 p-10">
+    <div class="container mx-auto">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-8">Our Programs</h1>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <!-- Program Card -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="church.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <a href="your-link-here">
+                        <h2 class="text-lg font-bold text-gray-800">Adopt-a-Church Program</h2>
+                      </a>
+                      
+                      <p class="text-gray-600 mt-2 custom-justify">The Adopt-a-Church Program is a community-driven initiative that aims to support and restore churches in need. Through partnerships with individuals, organizations, and local businesses, the program provides financial assistance, volunteer services, and resources for renovations, maintenance, and outreach efforts, their churches thriving for future generations.</p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+            
+            <!-- Program 2 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="wow111.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Bible Relevance in Modern Times</h2>
+<p class="text-gray-600 mt-2 text-justify">
+    The Bible remains relevant today, offering wisdom, moral guidance, and hope in an ever-changing world. Its teachings on love, justice, and perseverance inspire individuals to navigate life’s challenges. From personal growth to societal ethics, the Bible continues to shape values, strengthen faith, and provide comfort in modern times.
+</p>
+
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+
+            <!-- Program 3 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="me1.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Bible Museum</h2>
+<p class="text-gray-600 mt-2 text-justify">
+    The Bible Museum showcases the history, impact, and significance of the Bible through interactive exhibits, ancient manuscripts, and archaeological artifacts. It educates visitors on biblical narratives, cultural influence, and historical preservation. The museum fosters appreciation for the Bible’s enduring legacy, making its message accessible to all generations.
+</p>
+
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+
+            <!-- Program 4 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="study6.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Bible Listening Groups</h2>
+<p class="text-gray-600 mt-2 text-justify">
+    Bible Listening Groups bring people together to hear and reflect on God’s Word. Using audio Bibles, these groups make Scripture accessible to all, especially those with literacy challenges. They foster spiritual growth, community bonding, and deeper understanding, helping individuals apply biblical teachings in daily life through shared discussions and faith-building.
+</p>
+
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+
+            <!-- Program 5 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="heal1.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Trauma Healing Program</h2>
+                    <p class="text-gray-600 mt-2 text-justify">
+                        A Trauma Healing Program provides emotional and spiritual support to individuals recovering from pain and loss. Combining biblical principles with counseling, it helps participants process grief, find hope, and rebuild resilience. Through guided discussions, prayer, and community support, the program fosters healing and restoration for those facing life’s deepest wounds.
+                    </p>
+                    
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+
+          
+            <!-- Program 5 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="heal1.jpg" alt="Program Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Salvation Through Christ</h2>
+                    <p class="text-gray-600 mt-2 text-justify">
+                        Salvation through Christ is God’s greatest gift, offering eternal life to all who believe in Jesus. Through His sacrificial death on the cross, sins are completely forgiven, and believers are fully reconciled with God. By accepting Christ in faith and repentance, individuals receive divine grace, unshakable hope, spiritual renewal, and the promise of everlasting life in God’s glorious presence. This salvation transforms lives, bringing peace, joy, and purpose. It is not earned by works but given freely through God’s boundless love and mercy, inviting everyone to experience true redemption and a personal relationship with Him.
+                    </p>
+                    
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>                    </div>
+                </div>
+            </div>
+
+              <!-- Existing Program Cards -->
+            
+            <!-- Lesson 5 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="lesson5.jpg" alt="Lesson 5 Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Lesson 5: Faith in Action</h2>
+                    <p class="text-gray-600 mt-2 text-justify hidden">
+                        This lesson explores how faith is demonstrated through actions. Biblical examples highlight how trust in God translates into real-life decisions, leading to blessings and spiritual growth.
+                    </p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Lesson 8 -->
+            <div class="bg-white shadow-lg rounded-lg overflow-hidden">
+                <img src="lesson8.jpg" alt="Lesson 8 Image" class="w-full h-48 object-cover">
+                <div class="p-4">
+                    <h2 class="text-lg font-bold text-gray-800">Lesson 8: Walking in Grace</h2>
+                    <p class="text-gray-600 mt-2 text-justify hidden">
+                        This lesson teaches believers how to live daily in God’s grace. It covers spiritual disciplines, the importance of prayer, and the joy of forgiveness through Christ.
+                    </p>
+                    <div class="mt-4 flex justify-between items-center">
+                        <button class="bg-blue-600 text-white px-4 py-2 rounded-md toggle-button">Read More</button>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.toggle-button').forEach(button => {
+            button.addEventListener('click', function() {
+                let extraContent = this.parentElement.previousElementSibling;
+                if (extraContent.classList.contains('hidden')) {
+                    extraContent.classList.remove('hidden');
+                    this.textContent = 'Read Less';
+                } else {
+                    extraContent.classList.add('hidden');
+                    this.textContent = 'Read More';
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUI Design with Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <!-- Mission Section -->
+    <section class="text-center bg-white py-16 px-6 shadow-lg">
+        <h2 class="text-4xl font-bold text-brown-700 flex items-center justify-center gap-2">
+            <i data-lucide="target" class="w-8 h-8 text-brown-500"></i> Our Mission
+        </h2>
+        <p class="mt-4 text-lg text-gray-700 max-w-3xl mx-auto">
+            We are passionate about helping believers connect with God through Scripture and testimonies. We focus on 
+            teaching and shedding light on spiritual and prophetic meanings in the Word that can be applied to believers’ lives.
+        </p>
+    </section>
+
+    <!-- Wavy Divider -->
+    <div class="relative">
+        <div class="absolute inset-0 bg-gradient-to-r from-brown-500 to-brown-700 h-16 w-full transform rotate-2"></div>
+    </div>
+
+    
+            
+        </div>
+    </section>
+
+    <script>
+        lucide.createIcons();
+    </script>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bible Teaching</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Hero Section -->
+    <div class="relative">
+        <img src="nature.jpg" alt="Bible Background" class="w-full h-96 object-cover">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center text-white text-center">
+            <h1 class="text-4xl font-bold">Bible Teaching</h1>
+            <p class="text-lg mt-2">The Word made alive: Bringing clarity to scripture!</p>
+        </div>
+    </div>
+
+    <!-- Content Section -->
+    <section class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8 mt-8">
+        <h3 class="text-sm font-semibold text-orange-600 uppercase">Personal Revelation</h3>
+        <h2 class="text-2xl font-bold text-gray-800 mt-2">Reading the Bible</h2>
+        <p class="text-gray-700 mt-4">
+            When I read the Bible, I often have many revelations and feel enlightened. I began sharing these thoughts with a small group of Chinese Christians and later began to share them over the internet, which helped many people. I did not realize that it was the Holy Spirit speaking to me until I heard Mark Virkler teach that God speaks to us through "spontaneous thought." There are many messages from this group in Chinese, and I hope to share them in English gradually.
+        </p>
+        <p class="text-gray-700 mt-4">
+            Even though my ministry focuses on Chinese, I felt I should start a website in English where I could share what the Lord is doing among Chinese people. If you are interested but don’t understand Chinese or have the opportunity to interact with Chinese Christians, you can pray for us or support us financially. I believe it will be beneficial to share what I have received from the Lord.
+        </p>
+    </section>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AFCOE Training</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <!-- Hero Section -->
+    <section class="relative w-full h-screen bg-cover bg-center" style="background-image: url('design.jpg');">
+        <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <div class="text-white text-center max-w-2xl">
+                <h1 class="text-3xl font-bold">Biblical Studies – Understanding scripture and theology</h1>
+                <ul class="mt-4 text-lg text-left">
+                    <li>&bull; Start and grow your own ministry</li>
+                    <li>&bull; Speak persuasively in public settings and lead small groups</li>
+                    <li>&bull; Develop a vibrant devotional life</li>
+                    <li>&bull; Identify your specific calling in ministry</li>
+                    <li>&bull; Confidently share your faith with others</li>
+                    <li>&bull; Persuasively present the Gospel & prophecies</li>
+                    <li>&bull; Assess physical and emotional needs of contacts</li>
+                    <li>&bull; Point people to God’s work in the heavenly sanctuary</li>
+                    <li>&bull; Answer difficult Bible questions</li>
+                    <li>&bull; Conduct an evangelistic series</li>
+                    <li>&bull; Utilize technology to present Bible truth dynamically</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="bg-gray-800 text-white py-12 px-6">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl font-bold">God Is Calling You!</h2>
+            <p class="mt-4 text-lg" style="text-align: justify;">
+                This outreach training program offers everything you’ve been looking for. You’ll gain the confidence to engage with new people and initiate meaningful, life-changing Christian conversations. Whether you’re shy or outgoing, this program will equip you with practical skills to share your faith effectively. You’ll learn how to connect with people from different backgrounds, ask thoughtful questions, and communicate the message of hope with clarity and compassion. Through hands-on training, role-playing exercises, and real-life outreach experiences, you’ll grow in boldness and faith. Additionally, you’ll make lasting friendships with like-minded believers from around the world, forming a supportive community that encourages and strengthens your spiritual journey.
+            </p>
+            
+        </div>
+    </section>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/YOUR_FONT_AWESOME_KIT.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <div class="max-w-5xl mx-auto text-center py-10">
+        <h2 class="text-xl text-blue-800 font-semibold uppercase">Our Work</h2>
+        <h1 class="text-2xl font-bold text-blue-900 mt-2">ROOTED IN PURPOSE</h1>
+
+        <!-- Mission and Vision Section -->
+        <div class="grid md:grid-cols-2 gap-10 mt-10">
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <i class="fas fa-book text-blue-700 text-4xl mb-3"></i>
+                <h3 class="text-xl font-semibold text-blue-900">Mission</h3>
+                <p class="text-gray-600 mt-2">Making the Bible Known</p>
+                <p class="text-sm mt-2">
+                    We translate, produce, distribute, promote, and fundraise for the Holy Scriptures, 
+                    helping people engage with God’s Word in accessible formats and translations.
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-md">
+                <i class="fas fa-globe text-blue-700 text-4xl mb-3"></i>
+                <h3 class="text-xl font-semibold text-blue-900">Vision</h3>
+                <p class="text-gray-600 mt-2">A transformed Filipino people through God’s Word</p>
+                <p class="text-sm mt-2">
+                    The Bible guides all Filipinos towards national righteousness, economic stability, 
+                    and social peace, fostering a God-fearing citizenry.
+                </p>
+            </div>
+        </div>
+
+        <!-- Core Values Section -->
+        <h2 class="text-2xl font-bold text-blue-900 mt-10">Core Values</h2>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <i class="fas fa-cross text-blue-700 text-3xl mb-2"></i>
+                <h4 class="text-lg font-semibold">Faith & Obedience</h4>
+                <p class="text-sm text-gray-600">(Matthew 28:19-20; Psalm 119:7-8; 2 Timothy 3:16-17)</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <i class="fas fa-balance-scale text-blue-700 text-3xl mb-2"></i>
+                <h4 class="text-lg font-semibold">Obedience to the Law</h4>
+                <p class="text-sm text-gray-600">(1 Peter 2:13-17)</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <i class="fas fa-users text-blue-700 text-3xl mb-2"></i>
+                <h4 class="text-lg font-semibold">Respect for All People</h4>
+                <p class="text-sm text-gray-600">(Romans 12:10, 15-16, 18)</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <i class="fas fa-handshake text-blue-700 text-3xl mb-2"></i>
+                <h4 class="text-lg font-semibold">Interconfessional Relationships</h4>
+                <p class="text-sm text-gray-600">(Ephesians 4:4-6)</p>
+            </div>
+            <div class="bg-white p-4 rounded-lg shadow-md">
+                <i class="fas fa-award text-blue-700 text-3xl mb-2"></i>
+                <h4 class="text-lg font-semibold">Excellence & Integrity</h4>
+                <p class="text-sm text-gray-600">(Philippians 4:8; Proverbs 4:24-26)</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connect Section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <section class="bg-indigo-900 text-white py-10 text-center">
+        <h2 class="text-2xl font-semibold mb-4">STUDY</h2>
+        <div class="flex justify-center gap-4">
+            <a href="#" class="text-red-500 text-3xl"><i class="fab fa-youtube"></i></a>
+            <a href="#" class="text-blue-500 text-3xl"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-pink-500 text-3xl"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-purple-500 text-3xl"><i class="fas fa-phone"></i></a>
+            <a href="#" class="text-blue-400 text-3xl"><i class="fab fa-telegram"></i></a>
+            <a href="#" class="text-orange-500 text-3xl"><i class="fab fa-soundcloud"></i></a>
+        </div>
+    </section>
+    
+    <section class="py-12 bg-white">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6 px-4">
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                <img src="bible1.jpg" alt="Kids Ministry" class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center">
+                    <h3 class="text-lg font-bold italic">KiDS</h3>
+                    <span class="mt-2 px-4 py-1 bg-indigo-700 text-sm font-medium rounded">KIDS MINISTRY</span>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                <img src="bible10.jpg" alt="Lifegroup" class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center">
+                    <h3 class="text-lg font-bold italic">Join a Lifegroup</h3>
+                    <span class="mt-2 px-4 py-1 bg-indigo-700 text-sm font-medium rounded">SHARE LIFE TOGETHER</span>
+                </div>
+            </div>
+            <div class="relative group overflow-hidden rounded-lg shadow-lg">
+                <img src="bible11.jpg" alt="Volunteer" class="w-full h-60 object-cover transition-transform duration-300 group-hover:scale-105">
+                <div class="absolute inset-0 flex flex-col items-center justify-center bg-black bg-opacity-50 text-white text-center">
+                    <h3 class="text-lg font-bold italic">Volunteer</h3>
+                    <span class="mt-2 px-4 py-1 bg-indigo-700 text-sm font-medium rounded">SERVE WITH JOY</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Subscription</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900">
+    <div class="relative flex items-center justify-center min-h-screen bg-cover bg-center" style="background-image: url('bible11.jpg');">
+        <div class="absolute inset-0 bg-black opacity-50"></div>
+        <div class="relative z-10 p-8 text-center text-white bg-black bg-opacity-60 rounded-lg w-96">
+            <h2 class="text-2xl font-bold text-orange-400">BIBLE STUDY </h2>
+            </form>
+        </div>
+    </div>
+    <footer class="text-center text-gray-400 py-4 bg-black">
+        <p>Copyright &copy; 2025  Bible STudy  All rights reserved.</p>
+    </footer>
+</body>
+</html>
+

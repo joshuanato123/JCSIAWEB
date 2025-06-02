@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCSIA WORSHIP CENTER</title>
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/45/PhilippinesGeneralCounciloftheAssembliesofGod.png" type="image/png">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    
+    <style>
+        body {
+            background-color: #002147;
+            font-family: Arial, sans-serif;
+            background: url('1234.png') no-repeat center center fixed;
+
+
+            color: white;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .footer {
+            background-color: #002147;
+            color: white;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            margin-right: 15px;
+            font-size: 20px;
+        }
+        .scroll-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background: orange;
+            color: rgb(255, 255, 255);
+            padding: 10px 15px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        .navbar-nav .nav-item:hover .dropdown-menu {
+            display: block;
+        }
+        .navbar-brand img {
+            height: 50px;
+        }
+        .nav-link {
+            font-weight: bold;
+            color: #1A1A1A;
+        }
+        .nav-link:hover {
+            color: #FF6600;
+        }
+
+        
+
+        .card {
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+        }
+        .card h5 {
+            color: #00ff00;
+        }
+        .btn-custom {
+            background-color: white;
+            color: black;
+            font-weight: bold;
+        }
+        .title {
+            margin-top: 30px;
+        }
+        
+
+        .hero-section {
+            background: linear-gradient(to bottom, #0a1635, #162850);
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+            position: relative;
+        }
+        .hero-section h1 {
+            font-size: 3rem;
+            font-weight: bold;
+        }
+        .hero-section .overlay-text {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 8rem;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.1);
+        }
+        .theme-section {
+            background-color: #fff5e1;
+            text-align: center;
+            padding: 40px;
+        }
+        .theme-section h2 {
+            color: #0a1635;
+            font-weight: bold;
+        }
+        .theme-section p {
+            color: #3366cc;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            text-align: center;
+        }
+        .header {
+            background: linear-gradient(to bottom, #1a1a50, #050530);
+            padding: 20px;
+            color: white;
+        }
+        .header img {
+            width: 80px;
+        }
+        .content {
+            margin: 20px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+        .grid-item {
+            background-color: #007bff;
+            color: white;
+            padding: 15px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .nav-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: relative;
+        }
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+            padding: 0;
+            border-bottom: 1px solid white;
+        }
+        .nav-links li a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+        }
+        .background-text {
+            position: absolute;
+            font-size: 120px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.1);
+            z-index: -1;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .footer {
+            background-color: #222;
+            color: #fff;
+            padding: 40px 0;
+        }
+        .footer a {
+            color: #f1c40f;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+        .social-icons a {
+            color: #fff;
+            font-size: 24px;
+            margin: 0 10px;
+        }
+        .social-icons a:hover {
+            color: #f1c40f;
+        }
+        .footer-title {
+            font-weight: bold;
+            color: #ccc;
+        }
+        .footer-bottom {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            color: #444;
+        }
+        .footer-bottom h5 {
+            font-weight: bold;
+            color: #d4af37;
+        }
+
+        .banner {
+            position: relative;
+            background: url('image.png') no-repeat center center/cover;
+            height: 300px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        .banner-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        body {
+                        background-color: #1b1e3d;
+                        color: white;
+                    }
+                    .service-card img {
+                        width: 100%;
+                        height: 150px;
+                        object-fit: cover;
+                        border-radius: 8px;
+                    }
+
+             
+  
+                    .hero-section {
+                background-color: #0D1B40;
+                color: white;
+                text-align: center;
+                padding: 40px 20px;
+            }
+            .hero-section h1 {
+                font-weight: bold;
+                color: #ff4d4d;
+            }
+            .content-section {
+                background-color: #F8F5F1;
+                padding: 40px 20px;
+            }
+            .btn-custom {
+                background-color: black;
+                color: white;
+                border: none;
+                padding: 10px 15px;
+                font-size: 14px;
+            }
+            .btn-custom:hover {
+                background-color: #333;
+            }
+    
+
+
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="123.jpg" alt="Logo" height="50">
+                <span class="ms-2 fw-bold">JCSIA  WORSHIP CENTER </span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="Caloocan.html">GO TO NCBC</a></li>
+                    <li class="nav-item dropdown">
+                        
+                          
+        
+
+            
+            
+                        <ul class="dropdown-menu" aria-labelledby="eventsDropdown">
+                            
+                    </li>
+                    
+
+
+                    
+                    
+                        <a class="nav-link" href="#"><i class="bi bi-search"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+   
+    
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Master of Arts in Theology</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            .banner {
+                background: url('https://png.pngtree.com/thumb_back/fh260/background/20230519/pngtree-an-open-bible-sitting-in-the-field-in-the-evening-sun-image_2572000.jpg') no-repeat center center/cover;
+                height: 60vh;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                text-align: center;
+                position: relative;
+            }
+            .banner::after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgba(0, 0, 0, 0.5);
+            }
+            .banner-content {
+                position: relative;
+                z-index: 2;
+            }
+            .about-section {
+                background: #0f5b2a;
+                color: white;
+                padding: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">NORTH CALOOCAN BIBLE COLLEGE </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+        <div class="banner">
+            <div class="banner-content">
+                <h1 class="fw-bold">Bachelor of Arts in Theology</h1>
+            </div>
+        </div>
+    
+        <div class="about-section text-center">
+            <div class="container">
+                <h2 style="color: white;">About this Program</h2>
+
+                <p>Bachelor of Arts in Theology, Major in Christian Ministries program equips students with advanced knowledge and practical skills essential for effective ministry leadership in diverse contexts.</p>
+            </div>
+        </div>
+    
+   
+
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>About - PhD in Spirituality</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <style>
+
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+.about-title {
+    font-style: italic;
+    font-weight: bold;
+    border-bottom: 3px solid gold;
+    display: inline-block;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.rounded-img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+
+.register-text {
+    font-weight: bold;
+    color: #0d6efd;
+}
+
+    </style>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxK1baPX6U6RnFPjfZZxBOkOL4lHM9YMdr3A&s" alt="Students in discussion" class="rounded-img img-fluid mb-4">
+               
+            </div>
+            <div class="col-md-6">
+                <h2 class="about-title">About</h2>
+                <p>
+                    The Doctor of Philosophy (PhD) in Spirituality degree serves the church and society 
+                    by educating doctoral-level scholars in the areas of prayer, mysticism, spiritual 
+                    discernment, and spiritual guidance through a rich and rigorous program.
+                </p>
+                <p>
+                    Work with renowned, influential faculty who bring expertise in a wide range of disciplines 
+                    within Christian Spirituality, engage in richly ecumenical dialogue and innovative scholarship 
+                    and prepare to lead in your field.
+                </p>
+                <p>
+                    <em>This is the only fully-funded doctoral program in Christian Spirituality in the United States.</em> 
+                    Our faculty comprises internationally-recognized scholars and leaders in the field of spirituality.
+                </p>
+                <p class="register-text">
+                    <strong>Click here to register for our free virtual open house on Monday, December 2 at 7:30pm</strong> 
+                    to learn about the academic discipline of spirituality, ask questions about the PhD program, 
+                    and see why you should study at Oblate School of Theology.
+                </p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Program Highlights</title>
+  
+</head>
+<style>
+
+.bg-transparent-white {
+    background-color: rgba(255, 255, 255, 0.8); /* 80% opacity */
+}
+</style>
+<body class="bg-gray-100 p-6">
+    <div class="max-w-4xl mx-auto bg-white p-6 shadow-lg rounded-lg">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Course Description        </h2>
+        <p class="text-gray-600">The Bachelor of Arts in Theology provides a deep exploration of religious traditions, scripture, ethics, and theological thought. It equips students with critical thinking, interpretive, and pastoral skills, fostering a profound understanding of faith and its role in society. This program prepares graduates for ministry, education, counseling, and community leadership.</p>
+        <ul class="list-disc list-inside mt-3 text-gray-700">
+            <li>Scriptural Studies – In-depth analysis of religious texts, their historical contexts, and interpretations.</li>
+            <li>Ethics and Moral Theology – Examination of ethical principles, moral dilemmas, and their application in contemporary society.</li>
+            <li>Pastoral and Ministerial Training – Development of leadership, counseling, and community service skills for ministry and outreach.</li>
+            <li>Comparative Theology – Study of different religious traditions and their impact on culture, society, and interfaith dialogue.</li>
+        </ul>
+    </div>
+    
+    <div class="max-w-4xl mx-auto bg-white p-6 shadow-lg rounded-lg mt-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Learning outcomes</h2>
+        <p class="text-gray-600">Develop theological knowledge, ethical reasoning, pastoral skills, critical thinking, interfaith dialogue, and community leadership for faith-based service and education.</p>
+        <ul class="list-disc list-inside mt-3 text-gray-700">
+            <li>Demonstrate a comprehensive understanding of biblical and theological concepts.</li>
+            <li>Analyze historical and contemporary religious traditions.</li>
+            <li>Interpret sacred texts using scholarly methodologies.</li>
+            <li>Apply theological principles to ethical and moral decision-making.</li>
+            <li>Communicate theological ideas effectively in written and oral formats.</li>
+            <li>Develop leadership skills for ministry and community engagement.</li>
+            <li>Understand and articulate different theological perspectives.</li>
+            <li>Engage in interfaith and ecumenical dialogue.</li>
+            <li>Integrate theology with contemporary social issues.</li>
+            <li>Exhibit critical thinking and problem-solving skills in theological discourse.</li>
+            <li>Conduct theological research using appropriate academic resources.</li>
+            <li>Demonstrate cultural sensitivity in religious and spiritual contexts.</li>
+            <li>Apply theological knowledge in pastoral care and counseling.</li>
+            <li>Engage with philosophical and ethical dimensions of theology.</li>
+            <li>Participate in service and mission-oriented activities.</li>
+            <li>Understand the role of theology in public life and policy.</li>
+            <li>Develop skills in sermon preparation and religious education.</li>
+        </ul>
+    </div>
+    
+   
+    <div class="max-w-4xl mx-auto bg-white p-6 shadow-lg rounded-lg mt-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Vocation and Career Opportunities
+        </h2>
+        <p class="text-gray-600">Upon completing the Bachelor of Arts in Theology, Major in Christian Education, students will have developed:</p>
+        <ul class="list-disc list-inside mt-3 text-gray-700">
+            <li>Pastor/Minister</li>
+            <li>Theological Educator</li>
+            <li>Religious Studies Teacher</li>
+            <li>Missionary</li>
+            <li>Youth Ministry Coordinator</li>
+            <li>Christian Counselor</li>
+            <li>Worship Leader</li>
+            <li>Religious Journalist/Writer</li>
+            <li>Biblical Translator</li>
+            <li>Social Justice Advocate</li>
+            <li>Church Administrator</li>
+            <li>Religious Researcher</li>
+            <li>Theology Librarian</li>
+        </ul>
+    </div>
+
+    <div class="max-w-4xl mx-auto bg-white p-6 shadow-lg rounded-lg mt-6">
+        <h2 class="text-2xl font-bold text-gray-800 mb-4">Program Highlights        </h2>
+        <p class="text-gray-600">This program emphasizes scriptural studies, historical theology, ethics, and pastoral care. Students engage in theological discourse, critical analysis, and practical ministry training. Opportunities include internships, research projects, and interfaith studies. The curriculum fosters spiritual growth, leadership development, and cross-cultural engagement, preparing students for diverse roles in religious and community settings.</p>
+        <ul class="list-disc list-inside mt-3 text-gray-700">
+            <li><strong>Comprehensive Scriptural Studies</strong> – In-depth exploration of biblical texts and interpretations.</li>
+    <li><strong>Historical and Systematic Theology</strong> – Study of theological traditions and their evolution.</li>
+    <li><strong>Ethics and Moral Theology</strong> – Application of ethical principles in faith and society.</li>
+    <li><strong>Pastoral Care and Counseling</strong> – Training in spiritual guidance and community support.</li>
+    <li><strong>Critical Theological Discourse</strong> – Development of analytical and interpretative skills.</li>
+    <li><strong>Interfaith and Ecumenical Studies</strong> – Engagement with diverse religious traditions.</li>
+    <li><strong>Practical Ministry Training</strong> – Hands-on experience through internships and outreach.</li>
+    <li><strong>Leadership and Spiritual Formation</strong> – Preparation for church and community leadership.</li>
+    <li><strong>Research and Theological Scholarship</strong> – Conducting academic studies and theological inquiries.</li>
+    <li><strong>Cross-Cultural and Missionary Engagement</strong> – Understanding theology in global and cultural contexts.</li>
+        </ul>
+    </div>
+
+
+    
+        </div>
+    </div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>UCM Footer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .footer {
+            background-color: #222;
+            color: white;
+            padding: 30px 0;
+        }
+        .footer a {
+            color: white;
+            text-decoration: none;
+        }
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <!-- Left Column -->
+            <div class="col-md-4">
+                <h5><img src="logo.png" alt="UCM Logo" style="height: 50px;"> JCSIA </h5>
+                <p>JCSIA WORSHIP CENTER </p>
+                <p>1474 JCSIA Worship Center Quirino Highway Bankers Village District I Zone 16 Tala, Caloocan, 1426</p>
+                <ul class="list-unstyled">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <!-- Middle Column -->
+            <div class="col-md-4">
+                <h5>Schedule of Services</h5>
+                <p><strong>Sunday  Service</strong><br>8:00 AM 9:00AM 1ST SERVICE BANKERS WORSHIP CENTER </p>
+                <p><strong>Sunday  Service</strong><br>10:00 AM 12:00PM 2ND SERVICE METROPLAZA MALL MALARIA </p>
+                <p><strong>YOUTH SERVICE </strong><br>2:00PM 4:00PM | BANKERS WORSHIP CENTER </p>
+                <p><strong>MIDWEEK </strong><br>6:30 pm | BANKERS WORSHIP CENTER </p>
+            </div>
+
+            <!-- Right Column -->
+            <div class="col-md-4">
+                <h5>Contact Info</h5>
+                <p>(632) 8812-6062<br>(632) 8812-5609</p>
+                <h6>JCSIA ADMIN OFFICE </h6>
+                <p>Weekdays: 8:00 am - 5:00 pm</p>
+                <p>Sundays: 8:00 am - 5:00 pm</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+       
+            <div class="footer-bottom">
+                <h5>TO GOD BE THE GLORY</h5>
+                <p>&copy; Copyright JCSIA (Jesus Christ the Savior International Assembly) 2025. All rights reserved.</p>
+            </div>
+
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
